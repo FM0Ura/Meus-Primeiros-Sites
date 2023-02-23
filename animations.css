@@ -1,0 +1,25 @@
+#nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color: chartreuse;
+    transition: 1s ease-in-out;
+}
+
+#nav a{
+    color: aliceblue;
+    position: relative;
+
+}
+
+#nav a:hover::after{
+    width: 100%;
+
+
+
+
+
+}
